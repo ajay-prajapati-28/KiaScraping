@@ -2,14 +2,9 @@ from dateutil.parser import parse
 from datetime import datetime
 from parsel import Selector
 import time
-import traceback
 import requests
 import re
 import os
-import pyodbc
-import logging
-import sqlite3
-# from PIL import Image, ImageDraw, ImageFont
 from bs4 import BeautifulSoup
 import json
 
